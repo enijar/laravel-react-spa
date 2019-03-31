@@ -1,5 +1,5 @@
 import React from "react";
-import AppContext from "../app/Decorators/AppContext";
+import AppContext from "../app/Context/App";
 import BaseScreen from "./BaseScreen";
 import Screen from "../Components/Screen";
 

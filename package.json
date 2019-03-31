@@ -2,7 +2,6 @@
   "name": "laravel-react-spa",
   "version": "0.0.0",
   "description": "Laravel react SPA",
-  "browser": "./public/dist/app.js",
   "scripts": {
     "watch": "npx webpack --progress --hide-modules --watch --mode development",
     "build": "npx webpack --progress --hide-modules --mode production",
