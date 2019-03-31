@@ -1,0 +1,32 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry"
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "ignore": [
+    "node_modules"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-async-to-generator",
+    "@babel/plugin-syntax-dynamic-import"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "@babel/plugin-transform-react-inline-elements"
+      ]
+    }
+  }
+}
