@@ -38,7 +38,7 @@
   "dependencies": {
     "@loadable/component": "^5.2.2",
     "axios": "^0.18.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-router-dom": "^4.3.1"
